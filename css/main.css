@@ -1,0 +1,66 @@
+﻿html{
+	height: 100%; /*おまじない*/
+	background: url(../img/dummy5.png) #fff;	
+}
+body{
+	height: 100%;
+	margin: 0; 
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+	font-size: 14px;	
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+	position: relative; /*これのおかげで参照される？*/
+}
+#main{
+	margin-top: 30px;
+	padding-top: 50px;
+	height: 600px;
+	background: url(../img/dummy3.png) #fff;
+}
+
+#footer{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 50px;
+	height: 100px;
+	background: url(../img/dummy2.png) #fff;
+	
+}
+#mmenu{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	margin: 20px auto 50px;
+}
+#mmenu ul>li{
+	list-style:none;
+	float: left;
+	width:200px;
+	margin-left:0px;
+}
+
+#mmenu ul>li>a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border: 5px solid #7D97FF;  
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	height: 40px; 
+	background: #B750FF;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#mmenu ul>li>a:hover{
+    background: #6F50E8;
+}
+
+}
+a:visited{
+	color:#00c;
+}

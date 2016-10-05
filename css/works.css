@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#visualizer {
+  display: block;
+  background: #fff;
+  width :1280px;
+  height :800px;
+}

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+	<title>フラクタル</title>
+	<!-- Page Setting-->
+    <meta charset="utf-8">
+
+	<!--CSS Setting-->
+	<link rel="stylesheet" href="./css/main.css" type="text/css">
+	<link rel="stylesheet" href="./css/works.css" type="text/css">
+	<link rel="shortcut icon" href="./img/favicon.ico" type="text/css">
+<body>
+	<div id ="container">
+
+
+	<p>パラメータその１</p><br />
+	<input id="random-1" type="range" value="50" ><br />
+	<label for="play-rate">パラメータその２</label><br />
+<input id="random-2" type="range" value="50" /><br />
+角の数<br />
+<input id="sides" type="range" value="8" min ="3" max ="32" step="1" /><br />
+<canvas div id="visualizer" width="1280" height="800" ></canvas>
+<div class ="display" ></div>
+<p id ="ruler"></p>
+<button type="button" onclick="saveimg()">画像をダウンロード</button>
+<p>
+このぷろぐらむについて
+
+コッホ曲線を作成したものを応用したもの。
+パラメータが3つある。
+比率1,比率2,角の数で決まる。
+</p>
+
+<!-- CreateJSのライブラリー読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/Point2D.js"></script>
+	<script src="js/mathtool.js"></script>
+	<script src="js/saveimg.js"></script>
+  <script src="js/perlin_noise.js"></script>
+
+  <script src="js/works001.js"></script>
+
+	<!--<script src="js/stat.js"></script>-->
+</div>
+</body>
